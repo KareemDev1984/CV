@@ -14,7 +14,7 @@ body {
   }
   
   .hoofding{
-   max-width: 800px;
+   width: 100%;
 text-align: center;
 
   }
@@ -24,13 +24,49 @@ text-align: center;
     display: flex;
     
   }
-  .sides{
+  .leftsides{
   width: 200px;
   display: inline-block;
+  font-weight: bold;
   }
+  .rightsides{
+    width: 150px;
+    display: inline-block;
+    font-weight: bold;
+    }
   
   .center{
-  width: 450px;
+  width: 550px;
   display: inline-block;
-  
+  }
+  .jobtitel{
+    font-weight: bold;
+  }
+
+  .uberdiv {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 50px;
+  }
+  .leftcompetence{
+    width: 100px;
+    display: inline-block;
+  }
+  .stars{
+    width: 130px;
+    display: inline-block;
+    
+  }
+  .centercompetence{
+    width: 100px;
+    display: inline-block;
+  }
+  .list{
+
+    list-style-type: none;
+  }
+  .rightcompetence{
+    width: 150px;
+    display: inline-block;
   }

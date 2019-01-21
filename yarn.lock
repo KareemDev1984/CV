@@ -2756,8 +2756,9 @@ cssstyle@^1.0.0, cssstyle@^1.1.1:
 
 "cv@https://github.com/KareemDev1984/CV.git":
   version "0.1.0"
-  resolved "https://github.com/KareemDev1984/CV.git#70206563af560a43ccd7c7a960a44fca930076b1"
+  resolved "https://github.com/KareemDev1984/CV.git#ab4ca668fe5448871b62b43ad13c36a8356557ec"
   dependencies:
+    cv "https://github.com/KareemDev1984/CV.git"
     react "^16.7.0"
     react-dom "^16.7.0"
     react-scripts "2.1.3"
